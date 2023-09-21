@@ -68,19 +68,20 @@ body {
 .section-one {
   display: flex;
   padding-top: 50px;
+ 
 }
 
 .image {
 width: 400px;
 border-radius: 10%;
-margin-left: auto;
+margin-right: auto;
 
 
 }
 .intro {
   width: 300px;
-  display: inline-block;
-  margin-right: auto;
+  margin-left: auto;
+ 
   
 }
 
