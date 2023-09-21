@@ -11,6 +11,10 @@ box-sizing: border-box;
   background-color: aquamarine;
   color: #fff;
   padding: 20px 0; 
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  /* min-height: 55px; might need to add margin */
 
 }
 
@@ -23,6 +27,7 @@ box-sizing: border-box;
   align-items: center;
   margin: 0 auto;
   max-width: 1200px;
+
   
 }
 /* Style my name */
