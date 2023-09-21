@@ -13,7 +13,7 @@ box-sizing: border-box;
   padding: 20px 0; 
   border-width: 1px;
   border-style: solid;
-  border-color: black;
+  border-color: gray;
   /* min-height: 55px; might need to add margin */
 
 }
@@ -62,3 +62,25 @@ body {
   font-family: garamond, serif;
   background-color: #FDD8B5; 
 }
+
+/* Image Styling */
+
+.section-one {
+  display: flex;
+  padding-top: 50px;
+}
+
+.image {
+width: 400px;
+border-radius: 10%;
+margin-left: auto;
+
+
+}
+.intro {
+  width: 300px;
+  display: inline-block;
+  margin-right: auto;
+  
+}
+
