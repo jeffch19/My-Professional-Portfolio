@@ -68,10 +68,12 @@ body {
 .section-one {
   display: flex;
   padding-top: 50px;
+  flex-direction: row-reverse;
  
 }
 
 .image {
+
 width: 400px;
 border-radius: 10%;
 margin-right: auto;
@@ -85,3 +87,8 @@ margin-right: auto;
   
 }
 
+/* About me Section */
+.about-me {
+  display: flex;
+  margin-top: 120px;
+}
