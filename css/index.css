@@ -92,3 +92,26 @@ margin-right: auto;
   display: flex;
   margin-top: 120px;
 }
+
+
+
+/* My Projects Section */
+h3 {
+  display: flex;
+  margin-top: 120px;
+
+}
+
+/* Resume Section */
+h4 {
+  display: flex;
+  margin-top: 120px;
+}
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
