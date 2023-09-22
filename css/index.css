@@ -107,6 +107,15 @@ h4 {
   display: flex;
   margin-top: 120px;
 }
+.resume-icon {
+  width: 300px;
+border-radius: 10%;
+}
+
+/* Trying to add a light border aroud the hover */
+.resume-icon:hover{
+  color: #f39c12;
+}
 
 /* Footer Section */
 
