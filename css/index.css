@@ -134,8 +134,38 @@ h3 {
 h4 {
   display: flex;
   margin-top: 120px;
+  font-size: 60px;
+  margin-bottom: 30px;
+  justify-content: center;
 
 }
+
+.project-button {
+  text-align: center;
+  background-color: white;
+  line-height: 250%;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  width: 900px
+  
+  
+}
+
+
+/* Hover */
+
+.project-button {
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.project-button:hover {
+  background-color: aquamarine;
+  
+}
+
+
 
 /* Resume Section */
 h5 {
