@@ -75,6 +75,7 @@ body {
         height: auto; /* Maintain aspect ratio */
         position: relative;
         border-radius: 10%;
+        
     }
     /* Style for top-left text */
     /* Commented out the text */
@@ -87,8 +88,9 @@ body {
     .text.bottom-right {
         position: absolute;
         bottom: 150px; /* Adjust the bottom position as needed */
-        right: 397px; /* Adjust the right position as needed */
+        right: 260px; /* Adjust the right position as needed */
         font-size: 60px;
+        
         
         
     }
@@ -170,12 +172,32 @@ h4 {
 /* Resume Section */
 h5 {
   display: flex;
-  margin-top: 120px;
+  margin-top: 180px;
+  font-size: 60px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  
+
 }
+
+/* center and format resume icon */
 .resume-icon {
+position: relative;
   width: 300px;
 border-radius: 10%;
+margin: 0 auto;
+display: block;
+box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
+
+/* hover effect for resume icon */
+.resume-button {
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+
 
 /* Trying to add a light border aroud the hover */
 .resume-icon:hover{
@@ -185,7 +207,47 @@ border-radius: 10%;
 /* Footer Section */
 
 .footer {
-  display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ background-color: aquamarine;
+ padding: 20px 0;
+ border-width: 1px;
+ border-style: solid;
+ border-color: black;
 }
+
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+
+  .header {
+    padding: 15px 0;
+  }
+  .body {
+    font-size: 16px;
+  }
+.footer {
+  padding: 10px 0;
+}
+}
+  
+
+
+/* Media Query for even smaller screens */
+@media screen and (max-width: 480px) { 
+  .header {
+    font-size: 16px;
+  }
+  .body {
+    font-size: 14px;
+    background-color: #FDD8B5;
+  }
+.footer {
+  font-size: 14px;
+}
+}
+  
+
+  
