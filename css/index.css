@@ -101,11 +101,12 @@ body {
 .about-me {
   border: 1px solid black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+   justify-content: space-around;
+  align-items:first baseline;
+  margin: 10px 0px 0px 0px;  
+  height: 51vh;
   position: relative;
-}
+}  
 /* About me words */
 h3 {
   margin-top: -40%;
@@ -115,25 +116,26 @@ h3 {
   margin-bottom: 30px;
   flex-direction: column;
   flex-wrap: wrap;
+  
 }
 
 .about-me-content {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  max-width: 68%;
-  margin: 2px
+  max-width: 55%;
+  
 }
 
 .about-me-info {
   text-align: left;
   background-color: white;
   line-height: 250%;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-  width: 70%;
-  padding: 20px;
+  width: 60%;
+  
 }
 
 .divider {
