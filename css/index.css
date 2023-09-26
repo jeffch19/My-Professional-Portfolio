@@ -63,36 +63,29 @@ body {
     .container {
       border: 1px solid black;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        justify-content: stretch;
+        align-items: flex-start;
+        height: auto;
         position: relative;
+        overflow: hidden;
         
     }
     /* Style for the image */
-    .image img {
-        width: 425px; /* Set the desired width */
-        height: auto; /* Maintain aspect ratio */
+    .header-image img {
+        width:100%; /* Set the desired width */
+        height: 100%; /* Maintain aspect ratio */
         position: relative;
-        border-radius: 10%;
+        object-fit: cover;
         
     }
-    /* Style for top-left text */
-    /* Commented out the text */
-    .text.top-left {
-        position: absolute;
-        top: 150px; /* Adjust the top position as needed */
-        left: 10px; /* Adjust the left position as needed */
-    }
+
+    
     /* Style for bottom-right text */
-    .text.bottom-right {
+    .welcome-text {
         position: absolute;
         bottom: 150px; /* Adjust the bottom position as needed */
         right: 260px; /* Adjust the right position as needed */
-        font-size: 60px;
-        
-        
-        
+        font-size: 50px; 
     }
 
 
