@@ -105,22 +105,24 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-  flex-direction: column;
 }
 /* About me words */
 h3 {
-  margin-top: -30%;
+  margin-top: -40%;
   display: flex;
   justify-content: flex-start;
   font-size: 60px;
   margin-bottom: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .about-me-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
-  max-width: 90%;
+  max-width: 68%;
+  margin: 2px
 }
 
 .about-me-info {
@@ -136,7 +138,7 @@ h3 {
 
 .divider {
   width: 2px;
-  height: 80%;
+  height: 50%;
   background-color: black;
   margin: 0 20px;
 }
