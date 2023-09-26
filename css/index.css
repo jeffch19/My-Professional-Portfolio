@@ -104,16 +104,18 @@ body {
   display: flex;
   justify-content: space-around;
 }  
-/* About me words */
+/* About me header */
 h3 {
   font-size: 60px;
   border-right: black 1px solid;
   padding: 20px;
  
-  
+  /* about me text */
 }
 .paragraphEl{
   padding-left: 20px;
+  line-height: 2;
+
 }
 
 .about-me-info {
@@ -134,40 +136,45 @@ h3 {
 
 
 
-/* My Projects Section */
-h4 {
+/* Work Section */
+.work {
+  padding-top: 20px;
+  padding-right: 20px;
   display: flex;
-  margin-top: 120px;
+  justify-content: space-around;
+}  
+/* About me header */
+h4 {
   font-size: 60px;
-  margin-bottom: 30px;
-  justify-content: center;
-
+  border-right: black 1px solid;
+  padding: 20px;
+ 
+  
 }
 
-.project-button {
-  text-align: center;
+.seo-image {
+  /* padding-left: 20px; */
+  text-align: left;
   background-color: white;
   line-height: 250%;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-  width: 900px
-  
-  
-}
-
-
-/* Hover */
-
-.project-button {
-  cursor: pointer;
-  overflow: hidden; 
-}
-
-.project-button:hover {
-  background-color: aquamarine;
+  width: 25%;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
