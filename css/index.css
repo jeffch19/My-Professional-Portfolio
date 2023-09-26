@@ -99,56 +99,34 @@ body {
 
 /* About me Section */
 .about-me {
-  border: 1px solid black;
+  padding-top: 20px;
+  padding-right: 20px;
   display: flex;
-   justify-content: space-around;
-  align-items:first baseline;
-  margin: 10px 0px 0px 0px;  
-  height: 51vh;
-  position: relative;
+  justify-content: space-around;
 }  
 /* About me words */
 h3 {
-  margin-top: -40%;
-  display: flex;
-  justify-content: flex-start;
   font-size: 60px;
-  margin-bottom: 30px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  border-right: black 1px solid;
+  padding: 20px;
+ 
   
 }
-
-.about-me-content {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  max-width: 55%;
-  
+.paragraphEl{
+  padding-left: 20px;
 }
 
 .about-me-info {
+  /* padding-left: 20px; */
   text-align: left;
   background-color: white;
   line-height: 250%;
   font-size: 16px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-  width: 60%;
+  width: 25%;
   
 }
-
-.divider {
-  width: 2px;
-  height: 50%;
-  background-color: black;
-  margin: 0 20px;
-}
-
-/* .about-me-image {
-  width: 5vh;
-  height: 1vh;
-} */
 
 
 
