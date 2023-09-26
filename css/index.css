@@ -63,9 +63,9 @@ body {
     .container {
       border: 1px solid black;
         display: flex;
-        justify-content: stretch;
-        align-items: flex-start;
-        height: auto;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
         position: relative;
         overflow: hidden;
         
@@ -73,9 +73,10 @@ body {
     /* Style for the image */
     .header-image img {
         width:100%; /* Set the desired width */
-        height: 100%; /* Maintain aspect ratio */
-        position: relative;
+        height: auto; /* Maintain aspect ratio */
+        position: relative; 
         object-fit: cover;
+        
         
     }
 
