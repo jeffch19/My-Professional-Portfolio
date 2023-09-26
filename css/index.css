@@ -59,26 +59,26 @@ body {
 
 /* Image Styling */
 
-    /* Center the image on the page */
-    .container {
-      border: 1px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
-        position: relative;
-        overflow: hidden;
-        
-    }
-    /* Style for the image */
-    .header-image img {
-        width:100%; /* Set the desired width */
-        height: auto; /* Maintain aspect ratio */
-        position: relative; 
-        object-fit: cover;
-        
-        
-    }
+.container {
+  border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    
+}
+/* Style for the image */
+.header-image img {
+    width: 100vw;
+    height: auto; /* Maintain aspect ratio */
+    position: relative; 
+    object-fit: cover;
+    
+    
+}
 
     
     /* Style for bottom-right text */
