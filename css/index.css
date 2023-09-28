@@ -143,7 +143,7 @@ h3 {
   display: flex;
   justify-content: space-around;
 }  
-/* About me header */
+/* Work header */
 h4 {
   font-size: 60px;
   border-right: black 1px solid;
@@ -172,21 +172,53 @@ h4 {
   content: "SEO Optimization Project";
   position: absolute;
   bottom: 9px;
-  left: 55px;
+  left: 87px;
   color: black;
   font-size: 24px;
   background-color: aquamarine;
   padding: 10px;
 }
 
-.form {
+.p {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
+/* work in progress */
+.small-images {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  flex-wrap: wrap;
+}
+.small-image-1 { 
+  border: solid black;
+  width: 48%; /* Adjust the width as needed */
+  padding: 10px;
+  text-align: center;
+}
 
+.small-image-2 {
+  border: solid black;
+  width: 48%; /* Adjust the width as needed */
+  padding: 10px;
+  text-align: center;
+}
 
+.small-image-3 {
+  border: solid black;
+  width: 48%; /* Adjust the width as needed */
+  padding: 10px;
+  text-align: center;
+}
+
+.small-image-4 {
+  border: solid black;
+  width: 48%; /* Adjust the width as needed */
+  padding: 10px;
+  text-align: center;
+}
 
 
 
