@@ -204,11 +204,15 @@ h4 {
   display: flex;
   flex-direction: column;
 }
+
+/* container 1 and 2 from left to right */
 .image-container-1 {
   display: flex;
   justify-content: space-between;
   
 }
+
+/* top left small image */
 
 .small-image-1 { 
   display: flex;
@@ -219,34 +223,144 @@ h4 {
   text-align: center;
 }
 
-.small-image-2 {
+.dog1text {
+  position: relative;
+}
+
+.dog1text::after {
+  content: "Dog1";
+  position: absolute;
+  bottom: 9px;
+  left: 25px;
+  color: black;
+  font-size: 24px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.dog-1-image {
+  width: 100%;
+  height: 100%
+
+}
+
+
+
+/* small image top right */
+
+
+
+.small-image-2 { 
+  display: flex;
+  margin: 2%;
   border: solid black;
   width: 80%; /* Adjust the width as needed */
-  margin: 2%;
   padding: 10px;
   text-align: center;
 }
 
+.dog2text {
+  position: relative;
+}
+
+.dog2text::after {
+  content: "Dog2";
+  position: absolute;
+  bottom: 9px;
+  left: 25px;
+  color: black;
+  font-size: 24px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.dog-2-image {
+  width: 100%;
+  height: 100%
+
+}
+
+
+
+/* Container 2  */
 .image-container-2 {
   display: flex;
   justify-content: space-between;
-  margin: 2%
-}
-.small-image-3 {
-  border: solid black;
-  width: 80%; /* Adjust the width as needed */
-  padding: 10px;
-  text-align: center;
-  margin: 2%
+  
 }
 
-.small-image-4 {
+
+/* bottom left small image */
+
+.small-image-3 {
+  display: flex;
+  margin: 2%;
   border: solid black;
   width: 80%; /* Adjust the width as needed */
   padding: 10px;
   text-align: center;
-  margin: 2%
 }
+
+.dog3text {
+  position: relative;
+}
+
+.dog3text::after {
+  content: "Dog3";
+  position: absolute;
+  bottom: 9px;
+  left: 25px;
+  color: black;
+  font-size: 24px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.dog-3-image {
+  width: 100%;
+  height: 100%
+
+}
+
+
+
+
+/* bottom right small image */
+
+.small-image-4 {
+  display: flex;
+  margin: 2%;
+  border: solid black;
+  width: 80%; /* Adjust the width as needed */
+  padding: 10px;
+  text-align: center;
+}
+
+.dog4text {
+  position: relative;
+}
+
+.dog4text::after {
+  content: "Dog4";
+  position: absolute;
+  bottom: 9px;
+  left: 25px;
+  color: black;
+  font-size: 24px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.dog-4-image {
+  width: 100%;
+  height: 100%
+
+}
+
+
+
+
+
 
 
 
