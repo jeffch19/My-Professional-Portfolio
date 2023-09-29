@@ -170,6 +170,7 @@ h4 {
 .seo-container {
   display: flex;
   justify-content: center;
+  
 }
 
 .seo-image {
@@ -182,6 +183,7 @@ h4 {
   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
   width: 100%;
   margin-left: 10px;
+  
   
 }
 
@@ -452,6 +454,30 @@ font-size: larger;
 }
 }
   
+#phone {
+  padding-bottom: -2%;
+  border-bottom-style: solid;
+}
+
+#email {
+  padding-bottom: -2%;
+  border-bottom-style: solid;
+}
+
+#github-link {
+  padding-bottom: -2%;
+  border-bottom-style: solid;
+}
+
+#linkedin {
+  padding-bottom: -2%;
+  border-bottom-style: solid;
+}
+
+
+
+
+
 
 
 /* Media Query for even smaller screens */
