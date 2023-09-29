@@ -109,7 +109,10 @@ h3 {
   font-size: 60px;
   border-right: black 1px solid;
   padding: 20px;
- 
+  font-size: 60px;
+  padding: 20px;
+  min-width:20%;
+  overflow-wrap: break-word;
   /* about me text */
 }
 .paragraphEl{
@@ -148,15 +151,18 @@ margin-right: 10px;
 /* Work header */
 h4 {
   font-size: 60px;
-  border-right: black 1px solid;
   padding: 20px;
- 
+  font-size: 60px;
+  padding: 20px;
+  min-width:20%;
+  overflow-wrap: break-word;
   
 }
 
 .work-info {
   display: flex;
   flex-direction: column;
+  border-left: black 1px solid;
 }
 
 .seo-container {
@@ -377,6 +383,7 @@ h5 {
   font-size: 60px;
   border-right: black 1px solid;
   padding: 20px;
+  
   
 
 }
