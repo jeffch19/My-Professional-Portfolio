@@ -217,7 +217,7 @@ h4 {
 
 .small-image-1 { 
   display: flex;
-  margin: 2%;
+  margin: 1%;
   border: solid black;
   width: 80%; /* Adjust the width as needed */
   padding: 10px;
@@ -253,7 +253,7 @@ h4 {
 
 .small-image-2 { 
   display: flex;
-  margin: 2%;
+  margin: 1%;
   border: solid black;
   width: 80%; /* Adjust the width as needed */
   padding: 10px;
@@ -295,7 +295,7 @@ h4 {
 
 .small-image-3 {
   display: flex;
-  margin: 2%;
+  margin: 1%;
   border: solid black;
   width: 80%; /* Adjust the width as needed */
   padding: 10px;
@@ -330,7 +330,7 @@ h4 {
 
 .small-image-4 {
   display: flex;
-  margin: 2%;
+  margin: 1%;
   border: solid black;
   width: 80%; /* Adjust the width as needed */
   padding: 10px;
@@ -372,47 +372,54 @@ h4 {
 
 
 
-/* Resume Section */
+/* Contact me section */
 h5 {
-  display: flex;
-  margin-top: 180px;
   font-size: 60px;
-  margin-bottom: 30px;
-  justify-content: center;
+  border-right: black 1px solid;
+  padding: 20px;
+  
+
+}
+
+
+.contact-me {
+  padding-top: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content:space-evenly;
   align-items: center;
+}  
+
+
   
+.list-of-contact ul{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  line-height: 2;
+font-size: larger;
 
 }
 
-/* center and format resume icon */
-.resume-icon {
-position: relative;
-  width: 300px;
-border-radius: 10%;
-margin: 0 auto;
-display: block;
-box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
-}
-
-/* hover effect for resume icon */
-.resume-button {
-  cursor: pointer;
-  overflow: hidden;
+.list-of-contact ul li {
+  margin-right: 20px;
   
 }
 
 
-/* Trying to add a light border aroud the hover */
-.resume-icon:hover{
-  color: #f39c12;
-}
+
+
+
+
+
+
+
 
 /* Footer Section */
 
 .footer {
   display: block;
   margin-top: 20px;
-  margin-bottom: 20px;
  background-color: aquamarine;
  padding: 20px 0;
  border-width: 1px;
