@@ -118,7 +118,7 @@ h3 {
 .paragraphEl{
   padding-left: 20px;
   line-height: 2;
-font-size: larger;
+font-size: 135%;
 margin-right: 10px;
 }
 
@@ -464,20 +464,51 @@ font-size: larger;
   border-bottom-style: solid;
 }
 
-#github-link {
+.github-link {
+  
+  padding-bottom: -2%;
+  border-bottom-style: solid;
+  color: black;
+}
+
+.linkedin {
   padding-bottom: -2%;
   border-bottom-style: solid;
 }
 
-#linkedin {
-  padding-bottom: -2%;
-  border-bottom-style: solid;
+
+/* pointers */
+
+#phone:hover {
+  cursor: pointer;
+  
+  transition: 0.3s;
+  
 }
 
+#email:hover {
+  cursor: pointer;
+  
+  transition: 0.3s;
+}
 
+.github-link:hover {
+  
+  cursor: pointer;
+  
+  transition: 0.3s;
+}
 
+.linkedin:hover {
+  cursor: pointer;
+  
+  transition: 0.3s;
+}
 
-
+a:-webkit-any-link{
+  text-decoration: none;
+  color: black;
+}
 
 
 /* Media Query for even smaller screens */
