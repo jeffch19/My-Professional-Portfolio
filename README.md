@@ -6,13 +6,12 @@ This webpage was created to display my professional portfolio in a webpage!
 
 
 
-## Installation
-
-N/A
 
 ## Usage
 
-Within this webpage you can learn more about me as well as see some of my work.
+Deployed Link: https://github.com/jeffch19/My-Professional-Portfolio.git
+
+![alt text](./resources/Images/portfolio.png)
 
 ## Credits
 
