@@ -9,7 +9,7 @@ This webpage was created to display my professional portfolio in a webpage!
 
 ## Usage
 
-Deployed Link: https://github.com/jeffch19/My-Professional-Portfolio.git
+Deployed Link: https://jeffch19.github.io/My-Professional-Portfolio/
 
 ![alt text](./resources/Images/portfolio.png)
 
