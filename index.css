@@ -240,7 +240,7 @@ h4 {
 }
 
 .dog1text::after {
-  content: "Dog1";
+  content: "Movie Finder";
   position: absolute;
   bottom: 9px;
   left: 25px;
