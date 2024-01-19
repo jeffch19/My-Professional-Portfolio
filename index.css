@@ -258,6 +258,7 @@ h4 {
 
 
 
+
 /* small image top right */
 
 
@@ -276,7 +277,7 @@ h4 {
 }
 
 .dog2text::after {
-  content: "Dog2";
+  content: "Garden Bliss";
   position: absolute;
   bottom: 9px;
   left: 25px;
@@ -285,6 +286,7 @@ h4 {
   background-color: aquamarine;
   padding: 10px;
 }
+
 
 .dog-2-image {
   width: 100%;
